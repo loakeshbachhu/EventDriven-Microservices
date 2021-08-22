@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+event.microservice/event.microservice/twitter-to-kafka-service/src/main/resources/twitter4j.properties
+*.log
+event.microservice/event.microservice/twitter-to-kafka-service/src/main/resources/twitter4j.properties

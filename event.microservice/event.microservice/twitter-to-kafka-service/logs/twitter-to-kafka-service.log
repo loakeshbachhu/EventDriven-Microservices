@@ -1,11 +1,763 @@
-2021-08-21 15:17:57 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 16.0.1 on LAPTOP-M7C6PM45 with PID 15088 (L:\EventDriven-Microservices\event.microservice\event.microservice\twitter-to-kafka-service\target\classes started by swath in L:\EventDriven-Microservices\event.microservice\event.microservice)
-2021-08-21 15:17:57 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
-2021-08-21 15:17:58 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.711 seconds (JVM running for 2.062)
-2021-08-21 15:17:58 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - Application is running
-2021-08-21 15:17:58 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
-2021-08-21 18:21:50 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 16.0.1 on LAPTOP-M7C6PM45 with PID 18260 (L:\EventDriven-Microservices\event.microservice\event.microservice\twitter-to-kafka-service\target\classes started by swath in L:\EventDriven-Microservices\event.microservice\event.microservice)
-2021-08-21 18:21:50 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
-2021-08-21 18:21:51 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.785 seconds (JVM running for 1.514)
-2021-08-21 18:21:51 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - Application is running
-2021-08-21 18:21:51 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
-2021-08-21 18:21:51 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - Welcome To Microservices!!
+2021-08-22 13:20:53 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 16.0.1 on LAPTOP-M7C6PM45 with PID 3108 (L:\EventDriven-Microservices\event.microservice\event.microservice\twitter-to-kafka-service\target\classes started by swath in L:\EventDriven-Microservices\event.microservice\event.microservice)
+2021-08-22 13:20:53 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-08-22 13:20:53 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.827 seconds (JVM running for 1.849)
+2021-08-22 13:20:53 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - Application is running
+2021-08-22 13:20:53 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-08-22 13:20:53 [main] INFO  c.e.m.t.t.k.s.TwitterToKafkaServiceApplication - Welcome To Microservices!!
+2021-08-22 13:20:53 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-08-22 13:20:53 [main] INFO  c.e.m.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering the twitter stream with keywords [Java, Microservices, Spring, Kafka, Elasticsearch] 
+2021-08-22 13:20:54 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-08-22 13:20:54 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-08-22 13:20:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Where are cats lovers !!!
+https://t.co/6KhNRVzWxe https://t.co/DoHAMUIkQ3
+2021-08-22 13:20:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text The problems of designing features for established languages: generics with explicit constraints
+
+C#: 2005
+Java: 2004
+Rust: At Launch (2015)
+C++: 2021
+
+But there are feature gaps:
+Rust: Const generics coming
+C#: Static constraints coming, No const generics
+Java: LOL
+2021-08-22 13:20:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @imargielaa: Prada Spring/Summer 1992 https://t.co/8EHCAWHEga
+2021-08-22 13:20:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Honestly, Rust's speed of evolution is quite something, but right now C++ has regained its original lead in features (as far as generics go). And the lack of const generics causes a lot of problems for Rust that C# and Java just don't have.
+
+As for HKT... keep dreaming.
+2021-08-22 13:20:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text It's so funny that no one cares about $CELO at this point as it's moving sideways the past year but soon they will as it is massively suppressed and it will shoot like a spring into prosperity! Don't focus on the price of the coins friends. The value is in the use and actions. https://t.co/8G2uszaqi9
+2021-08-22 13:20:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Metall__Bitters Well well...rough fight last night bits?" he asked seeing her spring up as she hit the bed "You are at my place...you came through my window...again...and fell asleep on my table...again...
+2021-08-22 13:20:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @iztea_: they can't cancel the spring,   can they? https://t.co/j2pHtIBrXA
+2021-08-22 13:21:01 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @LalisaTeamTR: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:21:01 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ImsyserHealth: Happy New Season …with this beautiful sighting we pray for new beautiful beginnings for our country ❤️
+ #beautiful #happ…
+2021-08-22 13:21:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:21:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bigdataconf: Consumer #Analytics Using #NLP and #AI in the #HPC #Cloud https://t.co/tmig7Fp0wN #BigData #DataScience #MachineLearning #…
+2021-08-22 13:21:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text STUPID! This is what Lori & I used Friday. NOTHING wrong with them. Destroyed coz:
+
+(1) owner thought too many made after spring case decline
+
+(2) thought price would go down due to decrease in demand.
+
+(3) worried not enough employees to dispose later
+
+https://t.co/jZVga3OzsZ https://t.co/KinuttIHc7
+2021-08-22 13:21:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @SystemZee: giving away 3 Minecraft java accounts if 24 hours from now this tweet has equal replies, retweets, and likes. 
+
+GOOD LUCK. K…
+2021-08-22 13:21:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ❗ランキング:9位❗(ナイト＆週末セール)
+
+「IH炊飯器 本炭釜 5.5合炊き KAMADO 羽釜タイプ 黒真珠 NJ-AWA10-B」
+メーカ:三菱電機
+
+価格:¥54,800✨ポイント10倍✨(03:21)
+
+https://t.co/IPfMsDCPdT
+2021-08-22 13:21:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Can I use sobel edge detection to build a image steganography system that resist cropping, resizing operations https://t.co/enaylEYA7h #java #steganography
+2021-08-22 13:21:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Summer afternoon—summer afternoon; to me those have always been the two most beautiful words in the English language. Henry James (I can substitute Spring or Autumn also, as I enjoy the flowers in spring, colors of fall, and enjoy the warmth of summer. Not hot where I live.)
+2021-08-22 13:21:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ❗ランキング：10位❗(電源パーツ)
+
+「電源ユニット Smart 600W STANDARD PS-SPD-0600NPCWJP-W」
+メーカ:Thermaltake
+
+価格:¥5,896✨
+🔥売り切れ間近🔥(03:21)
+
+https://t.co/4jJoGq3NdJ
+2021-08-22 13:21:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Do you still believe that Notch drops an apple on modern versions of Minecraft Java
+2021-08-22 13:21:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @WX1BOX: Spring Street - Peacedale - South Kingstown, RI WA1YLP-Shaun @jimcantore #riwx
+2021-08-22 13:21:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Spring day
+2021-08-22 13:21:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @VictoriaDahl @Jarlath_vegas I work in healthcare so our mask mandate has been in place since spring 2020
+2021-08-22 13:21:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @NeethlingDianne: Happy New Season …with this beautiful sighting we pray for new beautiful beginnings for our country ❤️
+ #beautiful #ha…
+2021-08-22 13:21:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @syd_m39 Spring onions. Or in a pinch, scallions.
+2021-08-22 13:21:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text I think yes and the optimistic read on this is we should start seeing confirmed cases going down because way more of us have been exposed than we think
+2021-08-22 13:21:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Again spring
+
+#KIHYUNSTREAMINGPARTY #기현 #KIHYUN #몬스타엑스 #MONSTAX @OfficialMonstaX https://t.co/0Q7BNcX0NV
+2021-08-22 13:21:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ivvy_toshiki: ただいま！別仕事のため先程帰宅💼
+お待たせ、監督さん😌
+
+MANKAI STAGE『A3!』Troupe LIVE～SPRING 2021～
+全7公演無事終了⭐️
+
+愛を沢山感じた期間でした💕
+
+変わっていくもの
+でも変わらないもの
+信じよう…
+2021-08-22 13:21:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text how did they do it? (3/5)
+- supporting the community and building trust through remote spring 2020 with wifi hotspots, food delivery
+- partnership between district and public health department
+- interdisciplinary planning teams
+- *tons* of communication with parents https://t.co/oF1kJikZoZ
+2021-08-22 13:21:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @BuckeyesCrootin: It's finally here 🔥🔥 Good Morning everybody, my first article ever AND first part of my series Buckeyes Crootin 22' Cl…
+2021-08-22 13:21:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @imargielaa: Prada Spring/Summer 1992 https://t.co/8EHCAWHEga
+2021-08-22 13:21:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @gordana35722751 
+
+Love me, love me, love me, say you do
+
+You touch me
+I hear the sound of mandolins
+You kiss me
+With your kiss my life begins
+You're spring to me, all things to me
+Don't you know, you're life itself!
+
+https://t.co/l4ie9g21uo https://t.co/uJwgVcjjlf
+2021-08-22 13:21:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:21:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:21:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: INCREIBLE! Bella Hadid para Mugler Spring Summer 2021. https://t.co/4Aj6K4eC9O
+2021-08-22 13:21:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @NumbLord: Hinoa and Minoto enjoying some dango and sake at the local hot spring! https://t.co/yaVFWjvabk
+2021-08-22 13:21:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text The spring of love becomes hidden and soon filled up..
+اول مرة
+کْوٌدٍ خِـصّـمً جولي شيك JLC334
+کْوٌبًوٌنِ نّمْشّيٰ FUN61
+657400131 https://t.co/j4jgLbfZDe
+2021-08-22 13:21:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text The spring of love becomes hidden and soon filled up..
+اول طلب
+کْوٌدٍ خِـصّـمً لبس OMG100
+کْوٌبًوٌنِ نّمْشّيٰ FUN62
+064415161 https://t.co/s90ExYArGP
+2021-08-22 13:21:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Arab_Armys_Vote Spring day 
+
+I vote #BTS   , #ARMY, #Butter, #ButterClipe, #PermissionToDance    at the 2021 #MPN @BTS_twt
+2021-08-22 13:21:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @goniwrld: “here for you”- cix but you’re on a bike ride on a warm spring day https://t.co/zBjTc2s4Za
+2021-08-22 13:21:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @CaerbannogQueen: @syd_m39 Scallions, spring onions, or green onions. 
+
+They are what onions look like after they have been planted and…
+2021-08-22 13:21:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @DlORBYUL: disliking spring fever is anti byul behaviour
+2021-08-22 13:21:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @syedaaliff: Chocolate lover mesti cuba ni!!! 
+
+Java Chip Frappuccino + Hazelnut + Syrup + Caramel Drizzle + Caramel Upside Down + Choco…
+2021-08-22 13:21:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @AGRutledge: I GOT THE SHOT THIS SPRING.
+No one should be forced to get the vaccine, it's about personal responsibility. Get off Google…
+2021-08-22 13:21:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @minsyubbpd: ♡ SPRING IS COMING LUCKY BOX
+a curated bts merch mystery box
+
+let’s cheer up army! we’ll see them soon enough, let’s not wo…
+2021-08-22 13:21:31 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text YOU ARE MY SPRING🤦🏻‍♀️🤦🏻‍♀️🤦🏻‍♀️🤦🏻‍♀️🤦🏻‍♀️
+2021-08-22 13:21:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @iSecurity: Can I use sobel edge detection to build a image steganography system that resist cropping, resizing operations https://t.co/…
+2021-08-22 13:21:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @c0dehard: This is C++,
+C++ is cool,
+Be like C++!
+
+Stop the fight 😂
+#java #javascript #python #cpp #csharp https://t.co/UfPa4FhQXW
+2021-08-22 13:21:34 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @imargielaa: Prada Spring/Summer 1992 https://t.co/8EHCAWHEga
+2021-08-22 13:21:34 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @asrielle_ the next time i watch spring breakers its probably going to be 100x more uncomfortable knowing what we now know about james franco.
+2021-08-22 13:21:34 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Wissen Technology is looking for: Java/Angular - Fullstack Developer - Bangalore / Pune / Mumbai
+https://t.co/iY87YVqr5n #job
+2021-08-22 13:21:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @BuckeFPS: Quit solo ccs 8 months ago. Bought a new car, I have an amazing new girlfriend, I make a shitload of money and I'm buying a h…
+2021-08-22 13:21:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Install and Configure Elasticsearch on Rocky Linux 8 https://t.co/4bNYsT3dhi https://t.co/DbBeSMHmRB
+2021-08-22 13:21:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:21:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @roxyroller1972 Here in the Midwest, we only have had about 2 weeks of autumn & 2 weeks of spring for about the past 20 years. 😅😂🤣😹😅😂🤣😹 We just figured they aren't seasons anymore! 😅😂🤣😹
+2021-08-22 13:21:41 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ivvy_toshiki: ただいま！別仕事のため先程帰宅💼
+お待たせ、監督さん😌
+
+MANKAI STAGE『A3!』Troupe LIVE～SPRING 2021～
+全7公演無事終了⭐️
+
+愛を沢山感じた期間でした💕
+
+変わっていくもの
+でも変わらないもの
+信じよう…
+2021-08-22 13:21:44 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Need a favour from you lot.. no matter how much i want to, can you stop me from dying my hair red. 
+
+I do it every bastard year then regret it in the spring and summer
+2021-08-22 13:21:44 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @purut18 Even this syntax is simpler than Java's, right?
+2021-08-22 13:21:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Baru saja mengirim foto @ Tegal, Central Java https://t.co/Ve3spkun8G
+2021-08-22 13:21:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @BuckeFPS: Quit solo ccs 8 months ago. Bought a new car, I have an amazing new girlfriend, I make a shitload of money and I'm buying a h…
+2021-08-22 13:21:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @pets_trading is your spring ft?
+2021-08-22 13:21:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Birgün başıma gelmesi muhtemel olaylardan
+2021-08-22 13:21:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @BHadidBrasil: Uma obra de arte! Bella Hadid para a campanha Spring/Summer 2021 da Mugler. Fotografada por Neva. https://t.co/3kHttdoUNJ
+2021-08-22 13:21:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @javachoco2: 📢 New drop 📢 Java choco collection: CHOCO IN EGYPT!! 
+                         Now available on @opensea…
+2021-08-22 13:21:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @loichervepublic: Menace terroriste, fusillades à Marseille, délinquance du quotidien... Et on demande aux forces de l'ordre, gendarmes…
+2021-08-22 13:21:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Larkin also vouched for Dee Strange-Gordon, not on the field.
+2021-08-22 13:21:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:21:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @syedaaliff: Chocolate lover mesti cuba ni!!! 
+
+Java Chip Frappuccino + Hazelnut + Syrup + Caramel Drizzle + Caramel Upside Down + Choco…
+2021-08-22 13:21:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @captain_patty: JanuaryToonz #8 Pluckys Dream Girl
+
+Tiny Toon Adventures Special *Spring Break*
+
+Plucky Duck spotted this (Namesless) Du…
+2021-08-22 13:21:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Franz Kafka, Albert Ehrenstein, Otto Pick y Leisa Waltsch volando en un avión de papel, en 1913. https://t.co/rWiaiQzJiG
+2021-08-22 13:21:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:22:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @perkyturner56: OH MAN!! Can't wait for Spring, I just may have to try some indoor growing.(New for me) Some Legend OG , Boss Hogg x Blu…
+2021-08-22 13:22:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @3hr00am: Spring in Japan https://t.co/hgapXoSKKG
+2021-08-22 13:22:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text OH GOLLY GOSH
+2021-08-22 13:22:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @mhall55nine: "Last Day Of Spring" #TreesDay #FlowersOnFriday #naturephotograpahy #GoodOmens https://t.co/qv098ClPzv
+2021-08-22 13:22:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Every now and again, your social media needs a little spring clean. We may not be Kim and Aggie but we're more than capable of tidying up any marketing messes. Feel fresh here >>> https://t.co/3wqXj4z4Tq #SocialMedia #SocialMediaMarketing #SocialMarketing https://t.co/jfTLC0t43s
+2021-08-22 13:22:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ランキング:4位 「オーディオ機器・ヘッドホン」 (03:22)
+
+DENON 【完全納期未定商品】※要詳細確認 AV/SRアンプ AVRX1600H
+
+価格:43,218円🔥
+
+https://t.co/d2CLTnGk5i
+2021-08-22 13:22:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ReindeerPoyo: Your adventure starts in grasslands filled with flower fields like spring, route 8 starts to be near the coast with beach…
+2021-08-22 13:22:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @HacksDev: Check out my Gig on Fiverr: develop professional wordpress website with responsive design https://t.co/AArVH5FkPd 
+#mean #ind…
+2021-08-22 13:22:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @imargielaa: Prada Spring/Summer 1992 https://t.co/8EHCAWHEga
+2021-08-22 13:22:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @wurst_design: JavaとJavaScriptは、
+森脇健児と森末慎二くらい違う。
+2021-08-22 13:22:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @anniegirl1138: We are having an election because the opposition played games all spring to kill bills and keep them from the Senate. We…
+2021-08-22 13:22:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:22:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @energyscholar @KindCirce @DaPearl1978 Wow!! It just seems to fit, with where we're arriving at now. You can see so many people making plans to live off-grid, in the way they want to live their lives. A number of HomeEd groups, beginning to spring up. Perhaps it's OUR reset?
+2021-08-22 13:22:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @fginvestors: FGI is a 501c3 org founded and run by college students trying to combat wealth inequality through investment edu. 
+
+We tea…
+2021-08-22 13:22:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @folding_laundry: Look at this graph for cases in america.
+
+they clearly went down in the spring, due in part to seasonality and probabl…
+2021-08-22 13:22:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @goniwrld: “here for you”- cix but you’re on a bike ride on a warm spring day https://t.co/zBjTc2s4Za
+2021-08-22 13:22:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @BHadidBrasil: Uma obra de arte! Bella Hadid para a campanha Spring/Summer 2021 da Mugler. Fotografada por Neva. https://t.co/3kHttdoUNJ
+2021-08-22 13:22:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @pjmoncesaid: just like how winter passes and spring comes, happiness will come to you.
+2021-08-22 13:22:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Anti coup sit-in strike at KyaySarKya Village, Yinmarpin Tsp led by Gen Alphas. They also pay salute to fallen heroes of Spring Revolution. NUG FOR DEMOCRACY  #ASEANrejectSAC #WhatsHappeningInMyanmar #Aug22Coup https://t.co/VX0tCGhjiR
+2021-08-22 13:22:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @freshprincekalu: Since 2019 I've been planning on building an online business that sells 100% organic coffee straight to your doorstep.…
+2021-08-22 13:22:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @vegix: As the Delta #COVID19 variant spreads, stay safe. There is likely to be another significant wave of infections and deaths both h…
+2021-08-22 13:22:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @FLai1234: New artwork for sale! - "Spring In Great Smoky Mountains At Sunset" - https://t.co/IvnF2w9ZDA @fineartamerica https://t.co/pc…
+2021-08-22 13:22:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @0205__mogu: 210820 크래비티 사운드웨이브 영통팬싸 Cravity Soundwave Fansign #HYEONGJUN #형준 
+
+Hyeongjun sang a lil bit of Spring day 🌸 https://t.co/eW…
+2021-08-22 13:22:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @BTSxSUD: 📻| 𝘽𝙏𝙎 na Extra FM
+
+Bora fechar essa aqui também manteiguinhas!
+
+🧈170 comentários/20 RTs
+
+Adoraria escutar na rádio @extrafm,…
+2021-08-22 13:22:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Pollito_2703: I can see the light, when we greet the spring that has come 🍃
+
+#ArohaSelcaDay #RSD #YOONSANHA #ASTRO #아스트로 @offclASTRO ht…
+2021-08-22 13:22:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @programmerjoke9: Need a name for it. Any suggestions? https://t.co/0JYWFANNIX #100Daysofcode #javascript #programming #dev #linux #java…
+2021-08-22 13:22:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @binkitapaIinti: "Kanadından öpüyorum, kalbimin kuşu."
+
+• Franz Kafka
+2021-08-22 13:22:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @AFCBSouthAfrica Just wondered if the club might spring a surprise
+2021-08-22 13:22:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @programmerjoke9: IT in general I guess https://t.co/LwPhDFSDPX #100Daysofcode #javascript #programming #dev #linux #java #programming #…
+2021-08-22 13:22:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @michael_s_y_lee: Spring is around the corner...
+
+A moustachioed #pardalote stripping bark to line its nest...
+
+#BlackHillCP #wildoz #oz…
+2021-08-22 13:22:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @sherrieblossom_ @nikikr4tz My island is currently in spring but my DA is set to winter! https://t.co/EoNlncqo5r
+2021-08-22 13:22:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Is Damnation Spring worth it?
+2021-08-22 13:22:31 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @imargielaa: Prada Spring/Summer 1992 https://t.co/8EHCAWHEga
+2021-08-22 13:22:31 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @EUPH0RIAL0VE: jungkook fondly watching yoongi sing the spring day outro... this is my breaking point https://t.co/JNHyJgGjOs
+2021-08-22 13:22:32 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Vana_art: Kafka (カフカ) https://t.co/LIEtW4kKak
+2021-08-22 13:22:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Aymen_BA: As a young Tunisian activist, I learned a lot from talking to Bassem during the Arab Spring revolts but never thought that hi…
+2021-08-22 13:22:34 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @MilfVixen: Welcome spring and going backwoods the bars 🙌🏼🍸💋 #publicflashing #nomask #nobra #tittiesout #piercedgirls #piercedniplples #…
+2021-08-22 13:22:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidnews: Bella for Mugler Spring Summer 2021 https://t.co/hEMDJtlvjU
+2021-08-22 13:22:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Sticky and sweet BBQ WINGS. BBQ sauce with Awesome sauce, sesame seeds and spring onions on top. ⚡ https://t.co/gBxGdf3rlO
+2021-08-22 13:22:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ENOgden: ah yes, Vivaldi's Four Seasons, the famous concerti representing Fire, Hurricane, Coronavirus, and Spring
+2021-08-22 13:22:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @cardifairy @Youncepremacy They act like Nicki is a spring chicken or sumn.
+2021-08-22 13:22:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text spring é o melhor ep debut possivel e só minha opinião importa
+2021-08-22 13:22:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Sirlupinwatson: Solving Financial #Fraud Detection with #MachineLearning Methods
+
+https://t.co/wZ70qs47GU
+
+#AI #NLP #100DaysOfCode #100…
+2021-08-22 13:22:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @centralbhadid: GATA!!! Bella Hadid para Mugler Spring Summer 2021. https://t.co/i5HRvk9za2
+2021-08-22 13:22:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @gregkellyusa This debacle in Afghanistan was his plan, all part of the Arab spring to blow up the middle east. The Afghans running the Taliban take over are the same ones traded for Bergdahl.
+2021-08-22 13:22:39 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @BIackSwanMinari: BTS on iTunes Canada 🇨🇦
+
+47. #BTS_Butter 
+169. Dynamite
+197. #PermissiontoDance  
+393. Spring Day
+
+#PermissionToBuyBut…
+2021-08-22 13:22:39 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @eeriemage how are you gonna see dream and punz play java and still not see it like
+2021-08-22 13:22:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @angeIz_xo could you check? if not spring 2021 since its low tier?
+2021-08-22 13:22:42 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @EWinstn: Get your shirt here https://t.co/fGjHoAwzKA https://t.co/bwAb71lw8j
+2021-08-22 13:22:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @folding_laundry: Look at this graph for cases in america.
+
+they clearly went down in the spring, due in part to seasonality and probabl…
+2021-08-22 13:22:47 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @DormRoomDump: Spring Break always leads to trying new things 👀 https://t.co/BaVbYNbbiI
+2021-08-22 13:22:47 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ngiocoli: Parla di un libro "Spike" sul Covid in UK. Ma chissà perché... it sounds familiar. https://t.co/kmu0Vk21O2
+2021-08-22 13:22:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Sirlupinwatson: Solving Financial #Fraud Detection with #MachineLearning Methods
+
+https://t.co/wZ70qs47GU
+
+#AI #NLP #100DaysOfCode #100…
+2021-08-22 13:22:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @EdKwedar: #TextMining Star Trek using #MachineLearning | #BigData #Analytics #DataScience #AI #NLProc #IoT #IIoT #PyTorch #Python #RSta…
+2021-08-22 13:22:51 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text #WithMe
+🌸✨SPRING AMBIENCE WITH CHERRY BLOSSOMS: Stream Sounds, Spring Day Sounds, Splashing
+https://t.co/ntRyonrORg
+2021-08-22 13:22:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_ohbetty: you are my spring
+#kdrama #YouAreMySpring https://t.co/yShX9QFp7p
+2021-08-22 13:22:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @yuyukiki535: 「MANKAI STAGE『A3!』〜Troupe LIVE SPRING 2021〜」全公演駆け抜けることができました！
+
+本当に本当に幸せな時間でした。
+
+あの場所には元気をくれる全てが詰まってました。
+
+想いはまとめてブログに書きます！…
+2021-08-22 13:22:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @AnotherAznTart That's exactly how my sister describes it 😂 especially in the subway stations. When I was there it was early spring, so I was spared the full experience.
+2021-08-22 13:22:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text holy tomatoes I don’t remember any Java 🍅 https://t.co/H5xePyXZqq
+2021-08-22 13:23:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Trasy koncertowe:
+
+• GFriend 1st Asia Tour: Season of GFriend (2018),
+• GFriend Spring Tour 2019: Bloom (2019),
+• GFriend 2nd Asia Tour: Go Go GFriend! (2019),
+• GFriend Online Concert: GFriend C:ON (2020).
+2021-08-22 13:23:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:23:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bigdataconf: Consumer #Analytics Using #NLP and #AI in the #HPC #Cloud https://t.co/tmig7Fp0wN #BigData #DataScience #MachineLearning #…
+2021-08-22 13:23:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @o_lucaspires Spring breakers
+2021-08-22 13:23:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Looking to work as Junior Java Full-Stack Developer (m/w/d)? #Java #Junior #FullStack #Developer #Berlin #hiring #jobs 👇 https://t.co/pxnOCGIz7j
+2021-08-22 13:23:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ohhh...spring time for Hitler and Germany.........
+2021-08-22 13:23:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @0Exposure2: #EXPOSED
+2021-08-22 13:23:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ARMYonSpotify: .Top 5 @BTS_twt's closest tracks to 300M streams:
+
+> Spring Day — 271,796,003
+> Euphoria — 266,841,358
+> ON — 264,485,80…
+2021-08-22 13:23:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @arbeitnow: Looking to work as Junior Java Full-Stack Developer (m/w/d)? #Java #Junior #FullStack #Developer #Berlin #hiring #jobs 👇 htt…
+2021-08-22 13:23:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ivvy_toshiki: ただいま！別仕事のため先程帰宅💼
+お待たせ、監督さん😌
+
+MANKAI STAGE『A3!』Troupe LIVE～SPRING 2021～
+全7公演無事終了⭐️
+
+愛を沢山感じた期間でした💕
+
+変わっていくもの
+でも変わらないもの
+信じよう…
+2021-08-22 13:23:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text In Mandalay. : : Anti-Terrorist Council : : Mandalay protesters march
+
+Photo Crd - Spring Diary
+#Aug22Coup 
+#WhatsHappeningInMyanmar https://t.co/PqesmFQIG4
+2021-08-22 13:23:15 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @SharonBartter I'll live. Had I joined in I'd have been the youngest by some distance and I'm not exactly a spring chicken.
+2021-08-22 13:23:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @UJJALHA41067774: When wealth becomes 
+questionable
+Faith wills to leave
+The life glory 
+Stay intact, great 
+Treacherous finger composes…
+2021-08-22 13:23:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @introboymeets: spring day
+
+[ #ghostburfanart ] https://t.co/tHqOVHGJ2U
+2021-08-22 13:23:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Talkin bout I’m ready for Fall & done threw all that shit away when I “Spring Cleaned” 😒
+2021-08-22 13:23:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Sara_n_z_a @BTS_twt @965TDY Spring day 
+I  vote for BTS (@BTS_twt) as the #ArtistOfTheSummer via (@965TDY)
+2021-08-22 13:23:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Morgan_Turner99 @BJFK94 @HighlightGr8nes 👀
+2021-08-22 13:23:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Vana_art: Kafka (カフカ) https://t.co/LIEtW4kKak
+2021-08-22 13:23:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:23:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Drinking an Eclipse - Java Coffee (2014) by @5050Brewing @ La Taverna dels Predicadors — https://t.co/WjQyCfVf0x
+2021-08-22 13:23:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text .@TinaHassel 22k für ein kleines E-Auto? Da war die Recherche aber schlecht...
+
+Dacia Spring 12.870 €
+2021-08-22 13:23:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @AFP: VIDEO: Kasegeran is a remote town in Java that most Indonesians would struggle to find on a map
+
+But it’s also home to an unlikely…
+2021-08-22 13:23:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text En zo'n spring kindvrouwtje#vtwonen
+2021-08-22 13:23:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Dragoness_669: [#BSo7] Joint VET & Guardian Server.
+
+[Joint VET & Guardian Server] 
+Vintage Story Community(s) Server
+
+Spring has arriv…
+2021-08-22 13:23:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @XXBA17: It's been a looooong day of shopping so now I'm relaxing with some spring rolls and taking a nap. Def need a foot rub tho. 
+
+Fi…
+2021-08-22 13:23:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @arbeitnow: Looking to work as Junior Java Full-Stack Developer (m/w/d)? #Java #Junior #FullStack #Developer #Berlin #hiring #jobs 👇 htt…
+2021-08-22 13:23:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text How to annoy yourself! 2wks ago I was pleased with this ptg to remind me of Durham Dales. It was going down the path of ptgs in Spring Cannot be Cancelled(David Hockney)Worked on it today till sick with hunger and now it’s twee - like my teenage ptgs. I don’t like it. https://t.co/r45u0EQXEz
+2021-08-22 13:23:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @rebeccamakkai Prince, Mozart, Reinhardt, Jimi Hendrix, Amy Winehouse, Franz Kafka.
+2021-08-22 13:23:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @bozyme You got it!! I found that for plant jobs they hire more in the early spring late fall
+2021-08-22 13:23:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est troooooooppp je suis trop content pour lui bordel je peux que pronostiquer 3-2 pour fnatic Adam mérite roi toplane kingdom
+2021-08-22 13:23:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Cute girl and cute shirt
+Get your shirt here 👇
+https://t.co/57nQXoon3r https://t.co/jeOe7h0aHe
+2021-08-22 13:23:39 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text TVアニメ「A3!」 SEASON SPRING & SUMMER https://t.co/X7rV2QthaO
+2021-08-22 13:23:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @LalisaTeamTR: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:23:41 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:23:41 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @alianza_ed: “Reflexionar serena, muy serenamente, es mejor que tomar decisiones desesperadas”.
+
+KAFKA
+2021-08-22 13:23:42 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @letonnai Palm spring sur prime
+2021-08-22 13:23:42 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text 'I lose the space who fall for me.' - Aries Spring
+2021-08-22 13:23:43 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:23:44 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text C#ってjava*CのいいところっていうけどそれならDでよくね
+2021-08-22 13:23:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:23:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:23:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: INCREIBLE! Bella Hadid para Mugler Spring Summer 2021. https://t.co/4Aj6K4eC9O
+2021-08-22 13:23:47 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @ememess We call them "green onions" but if I hear scallions or spring onions I can still make the connection. Although scallions to me are small onions with brown-ish purple paper skins and have delicate, tight layers.
+2021-08-22 13:23:47 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Imagine this - its 28 degrees on a Spring arvo. Beautiful breeze. Windows down, pumpin Big Time Ushray on the 32inch sub woofers in the convertible nissan cube you just urched from ya grandma. Damn, ifelay is oodgay 🙏🙏🙏
+2021-08-22 13:23:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:23:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @boboxl: Restaurant review : 
+1) Ankole Kitusuru: nice ambience , Java food that went to a group of schools, poor service, great cocktai…
+2021-08-22 13:23:49 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:23:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:23:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:23:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @MoMisteries Still waiting for that spring break pay 😑
+2021-08-22 13:23:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @maximum083: 牧島です！
+
+MANKAI STAGE『A3!』Troupe LIVE～SPRING 2021～
+千秋楽でした！沢山のご来場、ご視聴本当にありがとうございました🌸
+少し長くなるので画像を読んでもらえたら嬉しいです😌
+
+真澄に出会えてよかった！春組…
+2021-08-22 13:23:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text I spent all day shifting furniture coz somehow I thought it would be a great idea to spring-clean the house. I finally sit down and my mom wants me to help with her hair, and I specifically asked her not to include me in this project... Ke ready ho lo hloma!!!! 🤞🏽🤞🏽🤞🏽
+2021-08-22 13:23:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Who gone be a nerd with me
+2021-08-22 13:23:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text marie maraton you are my spring 🤲🏻
+
+pala pusing gas aja
+2021-08-22 13:23:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Hire us for academic writing.
+For quality results DM us today
+#Java
+#CourseModules
+#Programming
+#Statistics
+#MsExcel
+#Researchprojects
+#Discussionhelp
+#UniversityofMassachusetts
+#Chelsea
+#SundayFunday
+KINDLY DM
+2021-08-22 13:23:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @wurst_design: JavaとJavaScriptは、
+森脇健児と森末慎二くらい違う。
+2021-08-22 13:23:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:23:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @fvryval: random retweet wins spring halo 2020!
+
+- must be following me & @0hChinny_  with notifs on
+- retweet w tags + like
+
+ends at 20…
+2021-08-22 13:23:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Mario_Livio: "Anyone who keeps the ability to see beauty never grows old."
+
+                         --Franz Kafka https://t.co/7r27otj…
+2021-08-22 13:23:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @pjm_vantegoth @BTS_twt Spring day.
+
+#MTVHottest BTS @BTS_twt
+2021-08-22 13:23:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @EdKwedar: #TextMining Star Trek using #MachineLearning | #BigData #Analytics #DataScience #AI #NLProc #IoT #IIoT #PyTorch #Python #RSta…
+2021-08-22 13:23:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:23:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:24:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ctrent: There are two guys that I can remember Barry Larkin telling me in spring training were no-doubt big-league shortstops while the…
+2021-08-22 13:24:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @YoungFlight15: @Morgan_Turner99 @BJFK94 @HighlightGr8nes 👀
+2021-08-22 13:24:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @hhrmhh @HOBICHITO2 @BTS_twt Spring Day 
+
+#MTVHottest BTS @BTS_twt
+2021-08-22 13:24:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:24:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @WritingElites1: Hire us for academic writing.
+For quality results DM us today
+#Java
+#CourseModules
+#Programming
+#Statistics
+#MsExcel
+#R…
+2021-08-22 13:24:05 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text fake love
+2021-08-22 13:24:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @BekahBunnie My parents unexpectedly had a baby at 46. I wouldn't trade her for anything. She's getting married next spring.
+2021-08-22 13:24:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ❗ランキング:10位❗(ナイト＆週末セール)
+
+「IH炊飯器 本炭釜KAMADO 羽釜タイプ 5.5合炊き 黒曜 NJ-AWB10-B」
+メーカ:三菱電機
+
+価格:¥59,800  ✨ポイント2倍✨
+🔥売り切れ間近🔥(03:24)
+
+https://t.co/WmC17DQnIK
+2021-08-22 13:24:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Buddhist Monks in Myanmar sent prayers for the immediate restoration of democracy and for the fallen heroes of Spring Revolution today.       NUG FOR DEMOCRACY #WhatsHappeningInMyanmar #Aug22Coup #ASEANrejectSAC https://t.co/rR86l35kVI
+2021-08-22 13:24:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ❗ランキング：11位❗(電源パーツ)
+
+「電源ユニット Smart 500W STANDARD PS-SPD-0500NPCWJP-W」
+メーカ:Thermaltake
+
+価格:¥4,580✨
+🔥売り切れ間近🔥(03:24)
+
+https://t.co/bV3t733KJe
+2021-08-22 13:24:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @kafkesk: Gregor Samsa bir sabah bunaltıcı düşlerden uyandığında, kendini yatağında dev bir böceğe dönüşmüş olarak buldu.
+
+*Franz Kafka…
+2021-08-22 13:24:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_ohbetty: you are my spring
+#kdrama #YouAreMySpring https://t.co/n96sg9vkdi
+2021-08-22 13:24:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Chius spring rolls on order see what all the fuss is about
+2021-08-22 13:24:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text C++!
+2021-08-22 13:24:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text I feel bored, any 1.17 java servers I can join #Minecraft
+2021-08-22 13:24:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @BuckeyesCrootin: It's finally here 🔥🔥 Good Morning everybody, my first article ever AND first part of my series Buckeyes Crootin 22' Cl…
+2021-08-22 13:24:11 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text "I definitely have been trying to add distance."
+
+@JMUFootball kicker Ethan Ratke says he worked to improve his distance on field goals this offseason.  His career long is 48 yards but he says he's now comfortable from 52-53 yards out. 
+
+Ratke was 14-for-14 on FGs in the spring https://t.co/RhPF6Lp71C
+2021-08-22 13:24:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:24:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:18 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:24:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Sirlupinwatson: Solving Financial #Fraud Detection with #MachineLearning Methods
+
+https://t.co/wZ70qs47GU
+
+#AI #NLP #100DaysOfCode #100…
+2021-08-22 13:24:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @starbuxman: Want to about:
+
+* Reactive programming 
+* Spring Boot
+* R2DBC
+* Observability 
+* API gateways and API adapters
+* Edge Servi…
+2021-08-22 13:24:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gorakhcodes: Evaluation of Polynomials using Linked List in C language
+
+#OpenSource #100DaysOfCode #Python #programming #stackoverflow…
+2021-08-22 13:24:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Devolvemos o stomp que eles nos deram no spring de 2019
+2021-08-22 13:24:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text exactly! spring fever is SO FUCKING GOOD I LOVE THAT SONG
+2021-08-22 13:24:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ivvy_toshiki: ただいま！別仕事のため先程帰宅💼
+お待たせ、監督さん😌
+
+MANKAI STAGE『A3!』Troupe LIVE～SPRING 2021～
+全7公演無事終了⭐️
+
+愛を沢山感じた期間でした💕
+
+変わっていくもの
+でも変わらないもの
+信じよう…
+2021-08-22 13:24:25 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @maysdramas: I think i’ve seen this film before...
+😭
+
+You Are My             Find Me In Your 
+Spring Ep 12           Memory ep 7
+
+#youar…
+2021-08-22 13:24:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @VoteWithARMY @965TDY Spring Day
+
+I vote #ArtistoftheSummer BTS via @965TDY
+2021-08-22 13:24:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @soupsized: spring dance by shizuka mariya https://t.co/7CgoT6687r
+2021-08-22 13:24:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:27 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @WashArchdiocese: Holy Lord, Father all-powerful, let justice spring up on the earth. #eveningprayer
+2021-08-22 13:24:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gypsylemonn: Ralph lauren spring 2005 https://t.co/cNAmrffqi0
+2021-08-22 13:24:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @giannis2221963: The colors of Spring Stolpen, Germany📷©Jens Vogel https://t.co/uwX6ht0x56
+2021-08-22 13:24:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:29 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @dolllgyuu: Alexander McQueen - Paris fashion week spring 2012 https://t.co/3GLHzwbn9L
+2021-08-22 13:24:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:32 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:32 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:24:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text This guy knew it last year
+2021-08-22 13:24:34 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text I’m glad this is starting to become a hell of a lot more mainstream. I attempted a project with a classmate for some months in the winter/spring on hospital price transparency which included several employee and KOL interviews. It was like pulling teeth and went nowhere.
+2021-08-22 13:24:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text We're hiring! Read about our latest job opening here: Central - Spring Jr. Executive Sales Intern - https://t.co/kLyMYRgZ7w
+2021-08-22 13:24:35 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @thegachaj1: I feel bored, any 1.17 java servers I can join #Minecraft
+2021-08-22 13:24:36 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ThatMagentaGuy: So now that the trailer is out, I helped with a few things on the funny upcoming Ultra Custom Night update, it's pretty…
+2021-08-22 13:24:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @CathyWeseluck: Thanks so much!  Loved that silly little role in Stargate!  But one of the collllllldddest days of the spring that year!…
+2021-08-22 13:24:37 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @namaewariki: now i want enhypen sitting front row watching 2022 ami spring/summer collection in paris!!
+2021-08-22 13:24:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @maximum083: 牧島です！
+
+MANKAI STAGE『A3!』Troupe LIVE～SPRING 2021～
+千秋楽でした！沢山のご来場、ご視聴本当にありがとうございました🌸
+少し長くなるので画像を読んでもらえたら嬉しいです😌
+
+真澄に出会えてよかった！春組…
+2021-08-22 13:24:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:41 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:41 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:41 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Congrats to @EdwinAyala_ , @alexwano26, and @_dannyquintana for  @ChilandSoccer all-state special mention! https://t.co/r9VmQpsocQ #rollstorm #ourlightningcomesthrough
+2021-08-22 13:24:43 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @stalin_elbrruce PINCHA QUE TE LLEVO LA JAVA 😾😾😾😾😾
+2021-08-22 13:24:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:45 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @meliorismance Ay icondaki çiçeklerden herhalde direkt spring geldi aklıma annsksmödödöss https://t.co/ImnhHdBvwb
+2021-08-22 13:24:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:24:48 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @unseen1_unseen: I keep thinking what Afghanistan reminds me off and I couldn't think of it at first and then it hit me. Obama's Arab sp…
+2021-08-22 13:24:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @miftah_rizaq: (AVAILABLE FOR SALE)
+
+Title : NYAI
+Seri : SELATAN
+Acrylic on Canvas
+80 X 40 cm
+Miftah Rizaq
+Yogyakarta, November 2020
+Pri…
+2021-08-22 13:24:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:24:53 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ya tuhann godaan java chip frappucino dateng lagi :(((((
+2021-08-22 13:24:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gorakhcodes: Evaluation of Polynomials using Linked List in C language
+
+#OpenSource #100DaysOfCode #Python #programming #stackoverflow…
+2021-08-22 13:24:55 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: INCREIBLE! Bella Hadid para Mugler Spring Summer 2021. https://t.co/4Aj6K4eC9O
+2021-08-22 13:24:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @CathHodsman Am still trying to work out the best times to mow. I read a lot about those, like yourself, who mow in the autumn, while others swear by l. winter/very e. spring; so as to give seeds more time to set & provide critters with overwinter food
+
+Do you mow your whole area in autumn?
+2021-08-22 13:24:56 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @goniwrld: “here for you”- cix but you’re on a bike ride on a warm spring day https://t.co/zBjTc2s4Za
+2021-08-22 13:24:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:24:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:25:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @poem_exe: darkening sea
+everywhere i go
+spring rains
+2021-08-22 13:25:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @triciach479: if I were fall semester I would simply not start tomorrow
+2021-08-22 13:25:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:01 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text import java.util.Calendar
+
+fun calendarDemo() {
+  val calendar = Calendar.getInstance()
+  if (calendar.firstDayOfWeek == Calendar.SUNDAY) {  // getFirstDayOfWeek()を呼ぶ
+    calendar.firstDayOfWeek = Calendar.MONDAY        // setFirstDayOfWeek()を呼ぶ
+  }
+}
+
+【Kotlin】
+2021-08-22 13:25:02 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @SEHS_BoysSoccer: Congrats to @EdwinAyala_ , @alexwano26, and @_dannyquintana for  @ChilandSoccer all-state special mention! https://t.c…
+2021-08-22 13:25:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Biking up a spring
+Intriguing
+Can you feel the wind brush against you
+Y not follow me
+Click clacking
+Lovely 🤍
+Everyone should bike
+#bicycle
+2021-08-22 13:25:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @EWinstn: This shirt says it all 🥰🥰🥰
+https://t.co/vDNOHJvDdL https://t.co/mqig2C8dBn
+2021-08-22 13:25:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @bfreeskeewee @jsimsfit @onepeloton What a great picture and seriously for whatever might ail you @jsimsfit is the answer.  I've never known a time when she hasn't brought a smile to my face and a spring in my step!  Rock on your two queens!
+2021-08-22 13:25:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:25:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Rojas was so fun to watch play defense during his time with @Mustangs (‘08). Offensively? Blech (.183). But he was 19 years old when he was here and has become a solid MLB hitter.
+2021-08-22 13:25:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ivvy_toshiki: ただいま！別仕事のため先程帰宅💼
+お待たせ、監督さん😌
+
+MANKAI STAGE『A3!』Troupe LIVE～SPRING 2021～
+全7公演無事終了⭐️
+
+愛を沢山感じた期間でした💕
+
+変わっていくもの
+でも変わらないもの
+信じよう…
+2021-08-22 13:25:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @martinkl: Applying the "database inside-out" idea in the context of today's microservices and databases, by @bibryam https://t.co/FJRHU…
+2021-08-22 13:25:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ランキング:17位 (DIY、工具)
+
+最安値宣言！ 空調ベスト セット 作業服 空調服 ベスト ファン ファン付 USB ポリエステル 暑......(03:25)
+
+https://t.co/y9wZnWjCVg
+2021-08-22 13:25:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Get vaccinated and wear your mask 🙏
+https://t.co/QTdbPenTjZ https://t.co/FbZ92UYME1
+2021-08-22 13:25:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @KarlWomack3: @MondayDPoet @Brennan_and_Riz @DonnaMarieArt1 @_Being_Benign @coachhemanti @reeniereid1 @LilianWrites @Marwen45468026 @Deb…
+2021-08-22 13:25:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @_gastt: Motorbike Bustier from Thierry Mugler Spring 1992. https://t.co/tQubZGqXSO
+2021-08-22 13:25:12 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @imargielaa: Prada Spring/Summer 1992 https://t.co/8EHCAWHEga
+2021-08-22 13:25:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text if bts was a season they would be spring
+2021-08-22 13:25:13 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ampomata: This is my painting "Spring Breeze" (please click on it to see it in full). You can check it out here: https://t.co/gSjGSgy6N…
+2021-08-22 13:25:14 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @hotshotjjk Yes spring era the best💅
+2021-08-22 13:25:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @saminacodes I don't like Java! 😖😖
+2021-08-22 13:25:16 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @IIIDeaton: Look for the Lords "road" weary saints.  
+
+" Behold, I will do a new thing,
+Now it shall spring forth;
+Shall you not know it…
+2021-08-22 13:25:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @javachoco2: 📢 New drop 📢 Java choco collection: CHOCO IN EGYPT!! 
+                         Now available on @opensea…
+2021-08-22 13:25:17 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:19 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:25:20 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:21 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Armdragger Rekkles qui a la flemme de jouer depuis le début du Spring Split ça me FATIGUE
+2021-08-22 13:25:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Art_DontTouch: "I dream of a grave, deep and narrow, where we could clasp each other in our arms as with clamps, and I would hide my fa…
+2021-08-22 13:25:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Pollito_2703: I can see the light, when we greet the spring that has come 🍃
+
+#ArohaSelcaDay #RSD #YOONSANHA #ASTRO #아스트로 @offclASTRO ht…
+2021-08-22 13:25:22 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:23 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text No there’s a lot of flies sadly. It’s been a poor weather year for insects the spring I think particularly damaging, as they break dormancy. Coldest April nights since 1922 by May the frosts ended but was still cool & wet. I suspect insect pop doing better further N where drier.
+2021-08-22 13:25:24 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:25:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @anacaulfield: still from ‘first spring’ by yang fudong for prada ss10 https://t.co/12OHIF8dbS
+2021-08-22 13:25:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @jjenkov While java is good, javascript is better!
+2021-08-22 13:25:26 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @SSA_Mark As a landscape guy I don't even bother shooting this time of year, at least landscapes. For the last decade plus our seasons are: winter, early spring, fire & smoke, & late autumn.
+2021-08-22 13:25:28 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Mendonça: "O cara depois que aprende Spring boot é um caminho sem volta"
+
+Sim, não quero mais mexer em um computador
+2021-08-22 13:25:30 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @yopresence: How good is your SEO?
+#webdevelopment #webdesign #webdeveloper #html #website #coding #programming #css #javascript #digita…
+2021-08-22 13:25:31 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Check out my story below to read about @GoShockersTFXC upcoming season!
+2021-08-22 13:25:32 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bexcomix1: Gwen: Spring 2.
+My BLOG:  http://bexcomix. (dopo il punto aggiungi  https://t.co/bIWIhDduTZ )
+My Comics:
+LUSTOMIC:  https://…
+2021-08-22 13:25:33 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text PictureThis - Identificeer direct uw planten.
+https://t.co/l6rCSRX4oI
+2021-08-22 13:25:34 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Ruby_Knox I want some of that java moss lol. Stuff is hard to come by as of late and I'm wanting to set up a fancy guppy colony with lil shrimps.
+2021-08-22 13:25:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:38 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @pradawestwood: anna sui spring 1994 rtw https://t.co/uwJkXiYdCe
+2021-08-22 13:25:39 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Bartlvx How has Mladenović been playing for you since leaving Lechia? Yuri is definitely an upgraded on him. 
+There is a famous video on YouTube of Yuri spring to get back in position. Pace like Usain Bolt 🤣
+2021-08-22 13:25:40 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @OriginalHairgem: Gorgeous fashion #EarthMix colours for #Autumn 🍂 🌰  finish off your outfit with a ‘Spring Orchard’ double comb hair cl…
+2021-08-22 13:25:41 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @DormRoomDump: Spring Break always leads to trying new things 👀 https://t.co/BaVbYNbbiI
+2021-08-22 13:25:43 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text everyone vote spring water 😇😇
+2021-08-22 13:25:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @themcytgames @mcytgameswatch non-java here o/
+2021-08-22 13:25:46 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gorakhcodes: Evaluation of Polynomials using Linked List in C language
+
+#OpenSource #100DaysOfCode #Python #programming #stackoverflow…
+2021-08-22 13:25:47 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @imargielaa: Prada Spring/Summer 1992 https://t.co/8EHCAWHEga
+2021-08-22 13:25:50 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Anti coup sit-in strike at KyaySarKya Village, Yinmarpin Tsp led by Gen Alphas. They also pay salute to fallen heroes of Spring Revolution. NUG FOR DEMOCRACY  #ASEANrejectSAC #WhatsHappeningInMyanmar #Aug22Coup https://t.co/6eTXVCP4C5
+2021-08-22 13:25:52 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:25:54 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:25:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gp_pulipaka: 5 Free #Books To Take Your #DataScience Skills to The Next Level. #BigData #Analytics #IoT #IIoT #PyTorch #Python #RStats…
+2021-08-22 13:25:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text spring day i say
+2021-08-22 13:25:57 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Darius game 5
+2021-08-22 13:25:58 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Kindly consider our services at an affordable fee. 
+For quality results DM us today
+#Python
+#Ecology
+#Chemistry
+#Physics
+#Java
+#Mathhelp
+#Homeworkdue??
+#NewYorkUniversityNYU
+#LISAISCOMING
+#DevontaeBooker
+KINDLY DM
+2021-08-22 13:25:59 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:26:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @mhnsdpp: [TRANS] TFBOYS-王俊凯 x CCTV SPRING FESTIVAL GALA 2021
+
+... ในอนาคตคุณอยากลองสัมผัสกับการเป็นนักแข่งรถดูบ้างไหม? 
+
+🐱 : ถ้ามีโอกาส…
+2021-08-22 13:26:00 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @robertrichman @primalpoly the easiest probably is Python, the inbetween Java or C#, the mostly deep C or C++.
+2021-08-22 13:26:03 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:26:04 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text so lembro da ivete sangalo usando esse
+2021-08-22 13:26:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text back-to-school fashion: used my fall shoe budget to spring for a pack of N95s.
+2021-08-22 13:26:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @RealGrifter @BidenBurner46 @POTUS yeah exactly.   They are pathetic. Poor kids get pell grants which are enough to pay for 12-15 credits per semester at public universities around the nation.  The loans are not for poor kids and if so, it was for spring breaks.  Pay your own way!
+2021-08-22 13:26:06 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @sanamaru: Spring color. https://t.co/hdWTrzKmxJ
+2021-08-22 13:26:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @Krishn_aGupta Me neither- am allergic to Java lol
+2021-08-22 13:26:07 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @WritingElites1: Kindly consider our services at an affordable fee. 
+For quality results DM us today
+#Python
+#Ecology
+#Chemistry
+#Physic…
+2021-08-22 13:26:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Lisa12109129: The outfit Lisa wore in her COMING SOON poster is thought to be the Red Cowgirl outfit of Mugler's , Spring/Summer 1992 c…
+2021-08-22 13:26:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Waolol: adam el famoso b tier au spring est entrain de pisser sur un grand daron de la scène et à une game des worlds c’est trooooooopp…
+2021-08-22 13:26:08 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @maximum083: 牧島です！
+
+MANKAI STAGE『A3!』Troupe LIVE～SPRING 2021～
+千秋楽でした！沢山のご来場、ご視聴本当にありがとうございました🌸
+少し長くなるので画像を読んでもらえたら嬉しいです😌
+
+真澄に出会えてよかった！春組…
+2021-08-22 13:26:09 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Anti coup sit-in strike at KyaySarKya Village, Yinmarpin Tsp led by Gen Alphas. They also pay salute to fallen heroes of Spring Revolution. NUG FOR DEMOCRACY  #ASEANrejectSAC #WhatsHappeningInMyanmar #Aug22Coup https://t.co/WYHGWfM4lw
+2021-08-22 13:26:10 [Twitter4J Async Dispatcher[0]] INFO  c.e.m.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @bhadidarg: INCREIBLE! Bella Hadid para Mugler Spring Summer 2021. https://t.co/4Aj6K4eC9O

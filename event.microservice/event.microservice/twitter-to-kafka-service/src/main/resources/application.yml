@@ -5,3 +5,5 @@ twitter-to-kafka-service:
     - Spring
     - Kafka
     - Elasticsearch
+
+  welcome-message: Welcome To Microservices!!

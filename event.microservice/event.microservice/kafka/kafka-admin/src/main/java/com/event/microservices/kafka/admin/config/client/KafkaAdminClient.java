@@ -3,6 +3,7 @@ package com.event.microservices.kafka.admin.config.client;
 import com.event.microservices.config.data.KafkaConfigData;
 import com.event.microservices.config.data.RetryConfigData;
 import org.apache.kafka.clients.admin.AdminClient;
+import org.apache.kafka.clients.admin.CreateTopicsResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.retry.support.RetryTemplate;
@@ -22,5 +23,23 @@ public class KafkaAdminClient {
         this.retryConfigData = retryConfigData;
         this.adminClient = adminClient;
         this.retryTemplate = retryTemplate;
+    }
+
+    public void createTopics(){
+        CreateTopicsResult createTopicsResult;
+        try {
+            createTopicsResult = retryTemplate.execute(this::doCreateTopics);
+        } catch (Throwable t){
+            throw new RuntimeException();
+        }
+
+    }
+
+    public CreateTopicsResult doCreateTopics(){
+    return null;
+    }
+
+    public void checkTopicsCreated(){
+
     }
 }

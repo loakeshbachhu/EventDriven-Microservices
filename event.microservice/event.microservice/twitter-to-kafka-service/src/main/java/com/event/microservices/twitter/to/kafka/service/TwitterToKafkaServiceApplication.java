@@ -6,40 +6,35 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationEvent;
-import org.springframework.context.ApplicationListener;
 import org.springframework.context.annotation.ComponentScan;
 
-import javax.annotation.PostConstruct;
 import java.util.Arrays;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.event.microservices")
-public class TwitterToKafkaServiceApplication<TwitterToKafkaServiceConfigData, StreamRunner> implements CommandLineRunner {
+public class TwitterToKafkaServiceApplication implements CommandLineRunner {
 
-    public static final Logger LOG = LoggerFactory.getLogger(TwitterToKafkaServiceApplication.class);
+    private static final Logger LOG = LoggerFactory.getLogger(TwitterToKafkaServiceApplication.class);
 
-   public static void main(String[] args){
-        SpringApplication.run(TwitterToKafkaServiceApplication.class,args);
-    }
+    private final TwitterToKafkaServiceConfigData twitterToKafkaServiceConfigData;
 
-    private TwitterToKafkaServiceConfigData twitterToKafkaServiceConfigData;
+    private final StreamRunner streamRunner;
 
-    private StreamRunner streamRunner;
-
-
-    public TwitterToKafkaServiceApplication(TwitterToKafkaServiceConfigData configData, StreamRunner runner){
+    public TwitterToKafkaServiceApplication(TwitterToKafkaServiceConfigData configData,
+                                            StreamRunner runner) {
         this.twitterToKafkaServiceConfigData = configData;
         this.streamRunner = runner;
     }
 
+    public static void main(String[] args) {
+        SpringApplication.run(TwitterToKafkaServiceApplication.class, args);
+    }
+
     @Override
     public void run(String... args) throws Exception {
-
-        LOG.info("Application is running");
-        LOG.info(Arrays.toString( twitterToKafkaServiceConfigData.getTwitterKeywords().toArray(new String [] {})));
+        LOG.info("App starts...");
+        LOG.info(Arrays.toString(twitterToKafkaServiceConfigData.getTwitterKeywords().toArray(new String[] {})));
         LOG.info(twitterToKafkaServiceConfigData.getWelcomeMessage());
         streamRunner.start();
     }

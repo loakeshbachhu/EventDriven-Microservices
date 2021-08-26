@@ -1,5 +1,6 @@
 package com.event.microservices.common.config;
 
+
 import com.event.microservices.config.data.RetryConfigData;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -27,3 +27,5 @@
 - Thymeleaf and Bootstrap for a basic front-end
 - Querying Elasticsearch reactively with Reactive Spring, WebClient and Reactive Thymeleaf
 - Spring Cloud Sleuth and Zipkin
+
+![image](https://user-images.githubusercontent.com/70115018/131767449-84bc5688-4bd4-46eb-aa11-5086a2cef1f9.png)

@@ -1,6 +1,6 @@
 # EventDriven-Microservices
  
- ##Features
+Features
  
 - Microservices with spring boot and spring cloud stack
 - Event-driven microservices with Kafka

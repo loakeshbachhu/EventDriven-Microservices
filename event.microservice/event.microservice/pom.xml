@@ -68,6 +68,16 @@
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
+				<groupId>com.event.microservice</groupId>
+				<artifactId>kafka-admin</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.event.microservice</groupId>
+				<artifactId>kafka-producer</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-webflux</artifactId>
 				<version>${spring-boot.version}</version>
